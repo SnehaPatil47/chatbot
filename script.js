@@ -56,5 +56,5 @@ const gptTextResponse = gptResponse.data.choices[0].text;
 });
 
 app.listen(port, () => {
-console.log(Server listening on port ${port});
+console.log(`Server listening on port ${port}`);
 });
